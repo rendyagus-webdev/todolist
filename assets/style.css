@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.login-container{
+    width:100%;
+    max-width:400px;
+    padding:20px;
+}
+
+.login-card{
+    background:#1e293b;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.login-title{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.form-group{
+    margin-bottom:18px;
+    display:flex;
+    flex-direction:column;
+}
+
+.form-group label{
+    margin-bottom:6px;
+    font-size:14px;
+}
+
+.form-group input{
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    background:#334155;
+    color:white;
+}
+
+.form-group input:focus{
+    outline:none;
+    border:1px solid #3b82f6;
+}
+
+.login-btn{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    background:#3b82f6;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-btn:hover{
+    background:#2563eb;
+}
+
+.error-msg{
+    color:#f87171;
+    font-style:italic;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.register-text{
+    margin-top:20px;
+    text-align:center;
+    font-size:14px;
+    color:#cbd5f5;
+}
+
+.register-link{
+    color:#3b82f6;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.register-link:hover{
+    text-decoration:underline;
+    color:#60a5fa;
+}
+
+/* index */
+/* DASHBOARD */

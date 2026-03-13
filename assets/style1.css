@@ -1,0 +1,121 @@
+/* =========================
+   ADD TASK PAGE
+========================= */
+
+.addtask-body{
+
+    background:#1f2937;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+/* container */
+
+.addtask-container{
+
+    width:100%;
+    max-width:420px;
+}
+
+/* card */
+
+.addtask-card{
+
+    background:#374151;
+    padding:35px;
+    border-radius:12px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* title */
+
+.addtask-title{
+
+    text-align:center;
+    margin-bottom:25px;
+}
+
+/* form group */
+
+.addtask-group{
+
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.addtask-group label{
+
+    margin-bottom:6px;
+    font-size:14px;
+}
+
+/* input */
+
+.addtask-group input{
+
+    padding:10px;
+    border:none;
+    border-radius:6px;
+
+    background:#4b5563;
+    color:white;
+}
+
+.addtask-group input:focus{
+
+    outline:none;
+    border:1px solid #3b82f6;
+}
+
+/* button */
+
+.addtask-btn{
+
+    width:100%;
+    padding:10px;
+
+    border:none;
+    border-radius:6px;
+
+    background:#3b82f6;
+    color:white;
+
+    font-size:15px;
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.addtask-btn:hover{
+
+    background:#2563eb;
+}
+
+/* tombol kembali */
+
+.addtask-back{
+
+    display:block;
+    margin-top:18px;
+    text-align:center;
+
+    text-decoration:none;
+    color:#cbd5e1;
+
+    font-size:14px;
+    transition:0.2s;
+}
+
+.addtask-back:hover{
+
+    color:#ffffff;
+    text-decoration:underline;
+}
